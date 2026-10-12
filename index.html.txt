@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Almeida e Silva | Contabilidade e Gestão em Angicos/RN</title>
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!-- Google Fonts (Roboto) -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      color: #333;
+    }
+    .bg-primary-custom {
+      background-color: #0d2c54;
+    }
+    .bg-secondary-custom {
+      background-color: #16425b;
+    }
+    .text-primary-custom {
+      color: #0d2c54;
+    }
+    .accent-color {
+      color: #00a896;
+    }
+    .hero-section {
+      background: linear-gradient(135deg, #0d2c54 0%, #16425b 100%);
+      color: white;
+      padding: 100px 0 80px 0;
+    }
+    .card-service {
+      border: none;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border-top: 4px solid #0d2c54;
+    }
+    .card-service:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+    .info-badge {
+      background-color: #eef4f8;
+      border-radius: 8px;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Menu de Navegação -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary-custom fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">
+        <i class="bi bi-calculator me-2 accent-color"></i>Almeida e Silva
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#inicio">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Nós</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+          <li class="nav-item"><a class="nav-link" href="#dados">Dados Institucionais</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+        <a href="https://wa.me/5584996654523" target="_blank" class="btn btn-outline-light ms-lg-3 mt-2 mt-lg-0">
+          <i class="bi bi-whatsapp me-1"></i> Fale Conosco
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="inicio" class="hero-section text-center text-lg-start">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <span class="badge bg-light text-dark mb-3 px-3 py-2 fw-semibold">CRC: RN-000687/O</span>
+          <h1 class="display-4 fw-bold mb-3">Segurança Contábil e Soluções em Gestão Empresarial</h1>
+          <p class="lead mb-4">Apoio estratégico para o crescimento sustentável do seu negócio em Angicos e região. Experiência e compromisso técnico com a sua empresa.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="https://wa.me/5584996654523" target="_blank" class="btn btn-warning btn-lg me-md-2 fw-bold">
+              <i class="bi bi-whatsapp me-2"></i>Atendimento Rápido
+            </a>
+            <a href="#servicos" class="btn btn-outline-light btn-lg">Nossos Serviços</a>
+          </div>
+        </div>
+        <div class="col-lg-5 d-none d-lg-block text-center mt-4 mt-lg-0">
+          <i class="bi bi-graph-up-arrow display-1 text-light opacity-50"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Destaques / Métricas -->
+  <section class="py-4 bg-light border-bottom">
+    <div class="container">
+      <div class="row text-center g-3">
+        <div class="col-md-4">
+          <div class="d-flex align-items-center justify-content-center">
+            <i class="bi bi-clock-history display-6 text-primary-custom me-3"></i>
+            <div class="text-start">
+              <h5 class="mb-0 fw-bold">Mais de 9 Anos</h5>
+              <small class="text-muted">De atuação no mercado</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex align-items-center justify-content-center">
+            <i class="bi bi-shield-check display-6 text-primary-custom me-3"></i>
+            <div class="text-start">
+              <h5 class="mb-0 fw-bold">Regularidade Garantida</h5>
+              <small class="text-muted">Registro no CRC/RN</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex align-items-center justify-content-center">
+            <i class="bi bi-briefcase display-6 text-primary-custom me-3"></i>
+            <div class="text-start">
+              <h5 class="mb-0 fw-bold">Gestão Integrada</h5>
+              <small class="text-muted">Serviços contábeis e administrativos</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="py-5">
+    <div class="container py-4">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <h2 class="fw-bold text-primary-custom mb-3">Sobre a Almeida e Silva Contabilidade e Gestão</h2>
+          <p class="text-secondary">Fundada em 2017 pelo contador e gestor <strong>Michel Anderson Lopes de Almeida</strong>, a empresa atua na prestação de serviços contábeis, consultoria empresarial e suporte administrativo especializado.</p>
+          <p class="text-secondary">Localizada no centro de Angicos/RN, nossa missão é oferecer assessoria transparente e eficiente, ajudando empresários e gestores a cumprirem suas obrigações tributárias e otimizarem seus processos operacionais.</p>
+          
+          <div class="row mt-4 g-3">
+            <div class="col-sm-6">
+              <div class="info-badge">
+                <i class="bi bi-check-circle-fill text-success me-2"></i><strong>Atividade Principal:</strong><br>
+                <small>Atividades de contabilidade (CNAE 69.20-6-01)</small>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="info-badge">
+                <i class="bi bi-building-check text-primary me-2"></i><strong>Situação Cadastral:</strong><br>
+                <small>Ativa perante a Receita Federal</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card bg-primary-custom text-white p-4 shadow">
+            <h4 class="card-title fw-bold mb-3"><i class="bi bi-quote me-2"></i>Compromisso com o Cliente</h4>
+            <p class="card-text">"Nosso foco vai além do cumprimento de obrigações fiscais: oferecemos o suporte analítico e administrativo que a sua empresa precisa para tomar decisões mais seguras."</p>
+            <hr class="border-light">
+            <p class="mb-0 text-light opacity-75"><small>Michel Anderson Lopes de Almeida — Responsável Técnico</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="py-5 bg-light">
+    <div class="container py-4">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold text-primary-custom">Nossas Áreas de Atuação</h2>
+        <p class="text-muted">Conheça o portfólio completo de serviços contábeis, consultivos e de apoio à gestão</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Serviço 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 card-service p-3">
+            <div class="card-body">
+              <div class="text-primary-custom display-6 mb-3">
+                <i class="bi bi-journal-bookmark-fill"></i>
+              </div>
+              <h5 class="card-title fw-bold">Atividades Contábeis</h5>
+              <p class="card-text text-muted">Escrituração contábil, balanços, demonstrações financeiras e cumprimento de obrigações acessórias com rigor técnico.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Serviço 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 card-service p-3">
+            <div class="card-body">
+              <div class="text-primary-custom display-6 mb-3">
+                <i class="bi bi-pie-chart-fill"></i>
+              </div>
+              <h5 class="card-title fw-bold">Consultoria e Auditoria</h5>
+              <p class="card-text text-muted">Análise tributária, planejamento fiscal e consultoria em gestão empresarial para identificar oportunidades de economia legal.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Serviço 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 card-service p-3">
+            <div class="card-body">
+              <div class="text-primary-custom display-6 mb-3">
+                <i class="bi bi-folder-symlink-fill"></i>
+              </div>
+              <h5 class="card-title fw-bold">Apoio Administrativo</h5>
+              <p class="card-text text-muted">Serviços combinados de escritório, preparação de documentos e gestão de rotinas administrativas especializadas.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Serviço 4 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 card-service p-3">
+            <div class="card-body">
+              <div class="text-primary-custom display-6 mb-3">
+                <i class="bi bi-heart-pulse-fill"></i>
+              </div>
+              <h5 class="card-title fw-bold">Apoio à Gestão de Saúde</h5>
+              <p class="card-text text-muted">Assessoria e consultoria administrativa direcionada para clínicas, profissionais autônomos e estabelecimentos de saúde.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Serviço 5 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 card-service p-3">
+            <div class="card-body">
+              <div class="text-primary-custom display-6 mb-3">
+                <i class="bi bi-bank2"></i>
+              </div>
+              <h5 class="card-title fw-bold">Administração de Fundos</h5>
+              <p class="card-text text-muted">Serviços corporativos para acompanhamento e administração de contratos e recursos sob comissão.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Serviço 6 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 card-service p-3">
+            <div class="card-body">
+              <div class="text-primary-custom display-6 mb-3">
+                <i class="bi bi-car-front-fill"></i>
+              </div>
+              <h5 class="card-title fw-bold">Gestão de Frotas e Mobilidade</h5>
+              <p class="card-text text-muted">Atividades complementares na gestão de transporte de passageiros e suporte à locação de veículos.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Dados Institucionais / Transparência -->
+  <section id="dados" class="py-5">
+    <div class="container py-4">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold text-primary-custom">Informações Corporativas</h2>
+        <p class="text-muted">Transparência e conformidade legal da nossa empresa</p>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-md-6 col-lg-4">
+          <div class="p-3 border rounded bg-light">
+            <small class="text-muted d-block">Razão Social</small>
+            <strong>Michel Anderson Lopes de Almeida</strong>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="p-3 border rounded bg-light">
+            <small class="text-muted d-block">Nome Fantasia</small>
+            <strong>Almeida e Silva Contabilidade e Gestao</strong>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="p-3 border rounded bg-light">
+            <small class="text-muted d-block">CNPJ</small>
+            <strong>27.048.505/0001-82</strong>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="p-3 border rounded bg-light">
+            <small class="text-muted d-block">Registro Profissional (CRC)</small>
+            <strong>RN-000687/O</strong>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="p-3 border rounded bg-light">
+            <small class="text-muted d-block">Data de Abertura</small>
+            <strong>07/02/2017</strong>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="p-3 border rounded bg-light">
+            <small class="text-muted d-block">Porte / Tipo</small>
+            <strong>Micro Empresa / Matriz</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato e Localização -->
+  <section id="contato" class="py-5 bg-light">
+    <div class="container py-4">
+      <div class="row g-4">
+        
+        <!-- Detalhes de Contato -->
+        <div class="col-lg-5">
+          <h2 class="fw-bold text-primary-custom mb-4">Entre em Contato</h2>
+          <p class="text-muted mb-4">Aguardamos seu contato para agendar uma reunião ou tirar dúvidas sobre a contabilidade da sua empresa.</p>
+
+          <div class="d-flex align-items-start mb-3">
+            <div class="bg-primary-custom text-white p-2 rounded me-3">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <div>
+              <strong>Endereço:</strong><br>
+              Rua Padre Felix, 115 - Sala 01, Centro<br>
+              Angicos/RN - CEP: 59515-000
+            </div>
+          </div>
+
+          <div class="d-flex align-items-start mb-3">
+            <div class="bg-primary-custom text-white p-2 rounded me-3">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div>
+              <strong>Telefone / WhatsApp:</strong><br>
+              <a href="https://wa.me/5584996654523" class="text-decoration-none text-dark">(84) 99665-4523</a>
+            </div>
+          </div>
+
+          <div class="d-flex align-items-start mb-4">
+            <div class="bg-primary-custom text-white p-2 rounded me-3">
+              <i class="bi bi-envelope-fill"></i>
+            </div>
+            <div>
+              <strong>E-mail:</strong><br>
+              <a href="mailto:gutierres@tmaenergiasolar.com" class="text-decoration-none text-dark">gutierres@tmaenergiasolar.com</a>
+            </div>
+          </div>
+
+          <a href="https://wa.me/5584996654523" target="_blank" class="btn btn-success btn-lg w-100">
+            <i class="bi bi-whatsapp me-2"></i>Iniciar Conversa no WhatsApp
+          </a>
+        </div>
+
+        <!-- Mapa / Endereço Google -->
+        <div class="col-lg-7">
+          <div class="card border-0 shadow-sm h-100">
+            <div class="card-body p-4">
+              <h4 class="fw-bold text-primary-custom mb-3"><i class="bi bi-map me-2"></i>Nossa Localização</h4>
+              <p class="text-muted">Estamos localizados no coração de Angicos/RN. Clique no botão abaixo para abrir a rota no Google Maps.</p>
+              
+              <div class="p-4 bg-light text-center rounded my-4">
+                <i class="bi bi-pin-map display-3 text-danger mb-3"></i>
+                <h5 class="fw-bold">Almeida e Silva Contabilidade e Gestão</h5>
+                <p class="mb-0 text-muted">Rua Padre Felix, 115, Sala 01 - Centro - Angicos/RN</p>
+              </div>
+
+              <div class="text-center">
+                <a href="https://www.google.com/maps/search/?api=1&query=Rua+Padre+Felix+115+Angicos+RN" target="_blank" class="btn btn-outline-primary btn-lg">
+                  <i class="bi bi-box-arrow-up-right me-2"></i>Abrir no Google Maps
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-primary-custom text-white py-4 border-top border-secondary">
+    <div class="container text-center text-md-between d-md-flex align-items-center">
+      <div class="mb-2 mb-md-0">
+        <p class="mb-0">&copy; Almeida e Silva Contabilidade e Gestão. Todos os direitos reservados.</p>
+        <small class="text-light opacity-75">CNPJ: 27.048.505/0001-82 | CRC: RN-000687/O</small>
+      </div>
+      <div>
+        <a href="#inicio" class="text-white text-decoration-none"><i class="bi bi-arrow-up-circle fs-4"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
